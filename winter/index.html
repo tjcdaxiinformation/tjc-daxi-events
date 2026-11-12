@@ -7,7 +7,7 @@
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="走過死蔭幽谷 | 2026 大溪教會冬季佈道會">
-    <meta property="og:description" content="一場突如其來的重病，昏迷與加護病房的生死邊緣。神卻在異象中用天上的詩班撫慰了痛苦的心靈。邀請您來聆聽這段化苦為甜的感人見證！">
+    <meta property="og:description" content="大溪教會誠摯邀請您及闔家參加！來聆聽一段經歷神大能醫治、從死蔭幽谷走向平安的感人生命見證。">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -23,16 +23,8 @@
             theme: {
                 extend: {
                     colors: {
-                        navy: {
-                            800: '#1a293c',
-                            900: '#0f172a',
-                        },
-                        gold: {
-                            300: '#fde047',
-                            400: '#facc15',
-                            500: '#eab308',
-                            600: '#ca8a04',
-                        }
+                        navy: { 800: '#1a293c', 900: '#0f172a' },
+                        gold: { 300: '#fde047', 400: '#facc15', 500: '#eab308', 600: '#ca8a04' }
                     },
                     fontFamily: {
                         serif: ['"Noto Serif TC"', 'serif'],
@@ -50,28 +42,31 @@
             background-size: cover;
             background-position: center;
         }
-        .glowing-text {
-            text-shadow: 0 0 20px rgba(250, 204, 21, 0.4);
-        }
-        .card-shadow {
-            box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.08);
-        }
+        .glowing-text { text-shadow: 0 0 20px rgba(250, 204, 21, 0.4); }
+        .card-shadow { box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.08); }
     </style>
 </head>
 <body class="max-w-md mx-auto min-h-screen bg-slate-50 pb-20 shadow-2xl overflow-x-hidden border-x border-slate-200 relative">
 
-    <!-- Hero / Poster Section (Can be screenshotted as a poster) -->
+    <!-- Hero / Poster Section -->
     <header class="hero-bg text-white px-6 pt-12 pb-16 relative overflow-hidden flex flex-col items-center text-center">
         <!-- Light ray effect -->
         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-gold-400/20 blur-[80px] rounded-full pointer-events-none"></div>
 
-        <div class="inline-block border border-gold-400/40 bg-navy-900/50 backdrop-blur-sm text-gold-300 text-xs px-4 py-1.5 rounded-full mb-6 tracking-widest font-medium">
+        <div class="inline-block border border-gold-400/40 bg-navy-900/50 backdrop-blur-sm text-gold-300 text-xs px-4 py-1.5 rounded-full mb-3 tracking-widest font-medium">
             真耶穌教會大溪教會 · 2026冬季月佈道會
+        </div>
+        
+        <!-- 新增：溫馨開頭語 -->
+        <div class="mb-6 flex items-center justify-center gap-2">
+            <span class="h-[1px] w-4 bg-gold-400/50"></span>
+            <p class="text-gold-200 text-sm font-medium tracking-widest">誠摯邀請您及闔家參加</p>
+            <span class="h-[1px] w-4 bg-gold-400/50"></span>
         </div>
         
         <h2 class="text-sm font-serif text-slate-300 mb-2 tracking-widest">見證分享</h2>
         <h1 class="font-serif font-black text-5xl tracking-wide mb-4 glowing-text leading-tight">
-            走過死蔭<br><span class="text-gold-400">的</span>幽谷
+            走過死蔭<br><span class="text-gold-400">の</span>幽谷
         </h1>
         <p class="font-serif text-lg text-gold-300 mb-8 tracking-widest">— 神的小羊生病了 —</p>
         
@@ -124,49 +119,52 @@
     <section class="px-5 mt-6 mb-8">
         <div class="flex items-center gap-2 mb-4 pl-1">
             <span class="w-1.5 h-4 bg-navy-800 rounded-full"></span>
-            <h3 class="font-serif font-bold text-lg text-navy-900">冬季佈道會程序表</h3>
+            <h3 class="font-serif font-bold text-lg text-navy-900">佈道會程序表</h3>
         </div>
 
         <div class="bg-white rounded-2xl p-2 card-shadow border border-slate-100">
             <ul class="relative border-l-2 border-slate-200 ml-3 mt-2 mb-2 pb-2">
-                <!-- 09:50 -->
                 <li class="mb-4 ml-4">
                     <div class="absolute w-3 h-3 bg-slate-300 rounded-full mt-1.5 -left-[7px] border-2 border-white"></div>
                     <span class="text-xs font-bold text-slate-400">09:50</span>
                     <h4 class="text-sm font-bold text-slate-700">會前唱詩</h4>
                 </li>
-                <!-- 10:00 -->
                 <li class="mb-4 ml-4">
                     <div class="absolute w-3.5 h-3.5 bg-gold-400 rounded-full mt-1.5 -left-[8px] border-2 border-white shadow-sm shadow-gold-400/50"></div>
                     <span class="text-xs font-bold text-gold-600">10:00 - 10:40</span>
                     <h4 class="text-base font-bold text-navy-900 mt-0.5">見證分享：走過死蔭幽谷</h4>
                     <p class="text-xs text-slate-500 mt-1">主講：陳明道 弟兄</p>
                 </li>
-                <!-- 10:40 -->
                 <li class="mb-4 ml-4">
                     <div class="absolute w-3 h-3 bg-slate-300 rounded-full mt-1.5 -left-[7px] border-2 border-white"></div>
                     <span class="text-xs font-bold text-slate-400">10:40</span>
                     <h4 class="text-sm font-bold text-slate-700">詩班獻詩</h4>
                     <p class="text-xs text-slate-500 mt-0.5">家庭詩班獻唱《求靠耶和華的名》</p>
                 </li>
-                <!-- 10:50 -->
                 <li class="mb-4 ml-4">
                     <div class="absolute w-3 h-3 bg-slate-300 rounded-full mt-1.5 -left-[7px] border-2 border-white"></div>
                     <span class="text-xs font-bold text-slate-400">10:50</span>
                     <h4 class="text-sm font-bold text-slate-700">祈求靈恩</h4>
                 </li>
-                <!-- End -->
                 <li class="ml-4">
                     <div class="absolute w-3 h-3 bg-emerald-400 rounded-full mt-1 -left-[7px] border-2 border-white"></div>
                     <h4 class="text-sm font-bold text-emerald-700 pt-0.5"><i class="fa-solid fa-utensils mr-1"></i> 中午愛餐</h4>
-                    <p class="text-[11px] text-slate-500 mt-0.5">聚會後備有愛心餐點，歡迎留下交流分享</p>
+                    <p class="text-[11px] text-slate-500 mt-0.5">備有愛心餐點，歡迎留下交流分享</p>
                 </li>
             </ul>
         </div>
     </section>
 
-    <!-- Contact & Action -->
+    <!-- Contact & Actions Section -->
     <section class="px-5 pb-6">
+        
+        <!-- 開啟海報按鈕 -->
+        <button onclick="openPosterModal()" class="w-full bg-white text-navy-800 border-2 border-gold-400 hover:bg-gold-50 text-center py-3.5 rounded-xl font-bold shadow-sm transition-all active:scale-95 mb-3 text-sm flex items-center justify-center gap-2">
+            <i class="fa-regular fa-image text-lg text-gold-600"></i>
+            查看 / 下載完整主題海報
+        </button>
+
+        <!-- 加入 LINE 按鈕 -->
         <a href="https://line.me/ti/p/U3XGjc8GKN" target="_blank" rel="noopener noreferrer" 
            class="block w-full bg-[#06C755] hover:bg-[#05b34c] text-white text-center py-4 rounded-xl font-bold shadow-lg shadow-[#06C755]/20 transition-all active:scale-95 mb-4 text-sm flex items-center justify-center gap-2">
             <i class="fa-brands fa-line text-lg"></i>
@@ -186,5 +184,32 @@
         </div>
     </section>
 
+    <!-- 海報彈窗 Modal -->
+    <div id="poster-modal" class="fixed inset-0 z-50 hidden bg-navy-900/95 backdrop-blur-sm flex flex-col items-center justify-center p-4 transition-opacity">
+        <button onclick="closePosterModal()" class="absolute top-4 right-4 text-white hover:text-gold-400 bg-black/50 w-10 h-10 rounded-full flex items-center justify-center transition-colors z-50">
+            <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
+        <div class="relative w-full max-w-md max-h-[85vh] overflow-hidden rounded-xl shadow-2xl">
+            <!-- 讀取同資料夾下的圖片檔 -->
+            <img src="2026冬季佈道會海報.png" alt="2026冬季月佈道會海報" class="w-full h-full object-contain">
+        </div>
+        <a href="2026冬季佈道會海報.png" download="大溪教會2026冬季佈道會海報.png" class="mt-6 bg-gold-500 hover:bg-gold-600 text-navy-900 font-bold py-2.5 px-6 rounded-full flex items-center gap-2 transition-colors">
+            <i class="fa-solid fa-download"></i> 儲存高清海報
+        </a>
+    </div>
+
+    <script>
+        // 控制海報彈窗的 JavaScript
+        function openPosterModal() {
+            const modal = document.getElementById('poster-modal');
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // 防止背景滾動
+        }
+        function closePosterModal() {
+            const modal = document.getElementById('poster-modal');
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto'; // 恢復背景滾動
+        }
+    </script>
 </body>
 </html>
